@@ -14,7 +14,6 @@ body{
 	padding: 0;
 	font-family: 'DM Sans', sans-serif;
 	max-width: 1920px;
-	
 }
 
 :root {
@@ -22,8 +21,22 @@ body{
 	--styl-color:#092E47;
 }
 
+.h1 {
+	font-style: 42px;
+}
+
+.h2 {
+	font-size: 42px;
+	color: var(--styl-color);
+}
+
+.h4 {
+	margin: 0 30px;
+}
+
 .p {
 	font-style: 16px;
+	color: var(--styl-color);
 }
 
 a{
@@ -31,13 +44,12 @@ a{
 }
 
 a:hover{
-text-decoration: none;
+	text-decoration: none;
 }
 .container{
 	max-width: 1400px;
 	align-items: center;
 	margin: 0 auto;
-	background-color: #0F64DA;
 }
 /* ==================header============================ */
 
@@ -46,7 +58,6 @@ text-decoration: none;
 	align-items: center;
 	text-align: center;
 	margin: 20px 10px 20px 60px;
-	
 }
 
 .logo{
@@ -74,7 +85,6 @@ text-decoration: none;
 	color: #092E47;
 	opacity: 0.5;
 	align-items: center;
-	
 }
 
 .adrlog{
@@ -95,6 +105,7 @@ text-decoration: none;
 	align-items: center;
 	text-align: center;
 }
+
 .butlog{
 	Width: 254px;
 	Height: 55px;
@@ -114,6 +125,7 @@ text-decoration: none;
 	max-width: 1400px;
 	margin: 0 auto;
 }
+
 .nav-item{
 	font-size: 16px;
 	line-height: 25px;
@@ -158,7 +170,6 @@ text-decoration: none;
 	margin: 0 -232px 0 -287px;
 }
 
-
 .titl {
 	background-image: url(../imeg/Gro1.png);
 	max-width: 1920px;
@@ -189,9 +200,7 @@ text-decoration: none;
 	top: -1300px;
 	margin: 0 auto;
 }
-.h1 {
-	font-style: 42px;
-}
+
 
 .item {
 	max-width: 1400px;
@@ -201,10 +210,6 @@ text-decoration: none;
 	z-index: 2;
 	top: -1300px;
 	margin: 0 auto;
-}
-.butlog {
-}
-.imggrop {
 }
 
 .imgtit {
@@ -217,26 +222,17 @@ text-decoration: none;
 
 /* ================== end header ============================ */
 
-.main {
-
-}
-
 .main-grid {
 	display: grid;
-
 }
 
 .fline {
-	
-	
 	margin: 0 auto;
 }
-.h2 {
-}
+
 .main-titl {
 	grid-template-columns: 4, 1fr;
 	align-items: center;
-	
 }
 
 .butmaina, .butmainb, .butmainc, .butmaind {
@@ -249,23 +245,21 @@ text-decoration: none;
 }
 
 .butmaina {
-	
 	z-index: 1;
 	margin: 0 ;
 }
 
 .butmainb {
-	
 	z-index: 2;
 	margin: 0 -49px;
 }
+
 .butmainc {
-	
 	z-index: 3;
 	margin: 0 -5px;
 }
+
 .butmaind {
-	
 	z-index: 4;
 	margin: 0 -28px;
 }
@@ -275,9 +269,6 @@ text-decoration: none;
 	color: #fff;
 }
 
-.butp {
-	
-}
 .maimg {
 	width: 60px;
 	height: 60px;
@@ -286,93 +277,112 @@ text-decoration: none;
 	text-align: center;
 }
 
-
-
-
-
-
-img{
-	border: 0;
-	
+.flex__abaut {
+	display: flex;
 }
 
-
-
-{
-	width: 100%;
-	max-width: 960px;
-	min-width: 430px;
-	margin: 0 auto 30px;
-	padding: 30px 0 10px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-end;
-	justify-content: space-between;
-	box-sizing: border-box;
+.abaut-item {
+	margin-top: 70px;
 }
 
-{
-	
-	
-	font-size: 20;
-	color: #fff;
-	margin: 0 10px 10px 0;
-	display: flex;
-	
+.abaut-img {
+	width: 287px;
+	height: 230px;
+	margin: 0 30px;
 	align-items: center;
+	text-align: center;
 }
 
+.p-abaut {
+	margin: 10px 30px;
+}
 
-
-
-
-
-
-
-
-
-
-.grid-1{
+.info-item {
+	background-color: #C8D3E2;
+}
+.inf-input {
 	display: flex;
- 	justify-content: space-between;
-	flex-wrap: wra
-	
-	
+	align-items: center;
+	text-align: center;
+}
+.info-imp {
+	width: 315px;
+	height: 55px;
+	margin: 40px 20px;
 }
 
-.grid-2{
-	display: flex;
-	
-	flex-direction: colum
-	
-	box-sizing: border-box;
+.info-imp:first-child {
+	margin-left: 40px;
 }
 
-.grid-item{
-	margin-bottom: 30px;
-	flex: 0 1 calc(25%-30px *3/4)
+.inf-but {
+	margin-left: 20px;
+	margin-right: 40px;
 }
 
-.grid-img{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin-bottom: 30px;
+.inf-p{
+	color: #C8D3E2;
 }
 
-.sqr{
-	width: 200px;
-	height: 200px;
-	background-color: #000;
+.grod {
+	background-color: #0F64DA;
+	max-width: 1920px;
+	align-items: center;
+	text-align: center;
+	margin: 20px 10px 20px 60px;
 }
-
-.footer{
-	width: 100%;
-	max-width: 960px;
-	min-width: 430px;
-	padding: 15px;
-	margin: auto;
-	background-color: #000;
+.h3 {
 	color: #fff;
-	box-sizing: border-box;
+	font-size: 42px;
+	padding-top: 100px;
 }
+
+.groop{
+	display: flex;
+	color: #fff;
+}
+.grod-im{
+	width: 887px;
+	height: 420px;
+}
+ 
+.groo-p {
+	align-items: center;
+	font-size: 16px;
+	text-align: center;
+}
+
+.p-p{
+	color: #fff;
+}
+
+.grodus {
+	display: flex;
+}
+.grod-flex {
+	display: flex;
+	
+}
+.grod-yea {
+	margin: 20px;
+}
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
