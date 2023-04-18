@@ -337,10 +337,25 @@ a:hover{
 	padding-top: 100px;
 }
 
-.groop{
-	display: flex;
-	color: #fff;
+.grod-item {
+	display: grid;
+
 }
+
+.groop{
+	color: #fff;
+	display: grid;
+	grid-column: 1/3;
+	grid-row: 1/3;
+}
+
+.groop2{
+	display: grid;
+	grid-column: 3/4;
+	grid-row: 1/1;
+
+}
+
 .grod-im{
 	width: 887px;
 	height: 420px;
@@ -349,15 +364,31 @@ a:hover{
 .groo-p {
 	align-items: center;
 	font-size: 16px;
-	text-align: center;
+	text-align: left;
+	margin-left: 40px;
+	color: #fff;
 }
 
 .p-p{
 	color: #fff;
+	padding: 20px;
+	text-align: left;
+	font-size: 16px;
 }
 
 .grodus {
+	display: grid;
+	grid-column: 3/4;
+	grid-row: 2/2;
+}
+
+.gr-us{
 	display: flex;
+	align-items: center;
+	padding: 0 40px;
+}
+.grodimg{
+	width: 170px;
 }
 .grod-flex {
 	display: flex;
@@ -369,6 +400,51 @@ a:hover{
 
 
 
+
+.grid-1{
+	display: flex;
+ 	justify-content: space-between;
+	flex-wrap: wra
+	
+	
+}
+
+.grid-2{
+	display: flex;
+	
+	flex-direction: colum
+	
+	box-sizing: border-box;
+}
+
+.grid-item{
+	margin-bottom: 30px;
+	flex: 0 1 calc(25%-30px *3/4)
+}
+
+.grid-img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.sqr{
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+}
+
+.footer{
+	width: 100%;
+	max-width: 960px;
+	min-width: 430px;
+	padding: 15px;
+	margin: auto;
+	background-color: #000;
+	color: #fff;
+	box-sizing: border-box;
+}
 
 
 
