@@ -412,7 +412,7 @@ a:hover{
 .grid-2{
 	display: flex;
 	
-	flex-direction: colum
+	flex-direction: colum;
 	
 	box-sizing: border-box;
 }
